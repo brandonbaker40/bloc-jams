@@ -39,3 +39,7 @@ body.collection {
 .collection-album-container img {
      width: 80%;
  }
+
+.nothing {
+    text-align: center;
+}

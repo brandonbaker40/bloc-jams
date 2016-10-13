@@ -113,3 +113,7 @@ body.landing {
 .clearfix::after {
    clear: both;
 }
+
+.nothing {
+    text-align: center;
+}
