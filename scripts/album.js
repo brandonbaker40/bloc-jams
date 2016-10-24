@@ -75,6 +75,14 @@ var setCurrentAlbum = function(album) {
      }
  };
 
+/*
+
+Re-write the function so that it:
+Checks to see if a parent exists. If it doesn't, then show an alert that says "No parent found".
+Shows a different alert when it fails to find a parent with the given class name: "No parent found with that class name".
+
+*/
+
 var findParentByClassName = function(element, targetClass) {
     if (element) {
         var currentParent = element.parentElement;
@@ -83,7 +91,7 @@ var findParentByClassName = function(element, targetClass) {
         }
             return currentParent;
     }
-}
+};
 
 var getSongItem = function(element) {
     switch (element.className) {
